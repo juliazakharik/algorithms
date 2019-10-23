@@ -1,0 +1,95 @@
+QuickSort with last element:
+	10^5 elements with range 10^5:
+		0: 26 ms
+		1: 12 ms
+		2: 10 ms
+		3: 11 ms
+		4: 12 ms
+		5: 29 ms
+		6: 16 ms
+		7: 11 ms
+		8: 11 ms
+		9: 12 ms
+		10: 13 ms
+		11: 17 ms
+		12: 39 ms
+		13: 12 ms
+		14: 17 ms
+		average: 16 ms
+		av with 100 attempts: 15 ms
+	10^6 elements with range 10^6:
+		0: 133 ms
+		1: 163 ms
+		2: 114 ms
+		3: 116 ms
+		4: 141 ms
+		5: 130 ms
+		6: 212 ms
+		7: 134 ms
+		8: 150 ms
+		9: 101 ms
+		10: 100 ms
+		11: 98 ms
+		12: 100 ms
+		13: 99 ms
+		14: 102 ms
+		average: 126 ms
+		av with 100 attempts: 100 ms
+QuickSort with random element:
+	10^5 elements with range 10^5:
+		0: 32 ms
+		1: 26 ms
+		2: 26 ms
+		3: 13 ms
+		4: 23 ms
+		5: 16 ms
+		6: 17 ms
+		7: 16 ms
+		8: 14 ms
+		9: 31 ms
+		10: 42 ms
+		11: 19 ms
+		12: 17 ms
+		13: 24 ms
+		14: 35 ms
+		average: 23 ms
+		av with 100 attempts: 23 ms
+	10^6 elements with range 10^6:
+		0: 319 ms
+		1: 222 ms
+		2: 208 ms
+		3: 202 ms
+		4: 415 ms
+		5: 218 ms
+		6: 188 ms
+		7: 177 ms
+		8: 153 ms
+		9: 149 ms
+		10: 171 ms
+		11: 146 ms
+		12: 149 ms
+		13: 152 ms
+		14: 150 ms
+		average: 201 ms
+		av with 100 attempts: 145 ms
+Conclusion: qs with last el is faster
+
+QuickSort with last element:
+	10^5 elements with range 10^5:
+	k = 500 average: 19 ms
+	k = 100 average: 19 ms
+	k = 60  average: 14 ms
+	k = 50  average: 14 ms
+	k = 40  average: 11 ms
+	k = 30  average: 14 ms
+	k = 20  average: 18 ms
+	k = 10  average: 17 ms
+	k = 5   average: 17 ms
+
+
+
+
+
+
+
+		
