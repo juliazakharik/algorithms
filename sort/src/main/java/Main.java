@@ -1,5 +1,6 @@
+import constants.ArrConstants;
 import fill.ArrFiller;
-import sort.QuickSort;
+import sort.MergeSort;
 
 import java.util.Arrays;
 
@@ -8,20 +9,49 @@ import static constants.ArrConstants.ARR_LENGTH;
 public class Main {
     public static void main(String[] args){
         int[] array = new int[ARR_LENGTH];
-        int[] qsl_arr = new int[ARR_LENGTH];
-        int[] qsr_arr = new int[ARR_LENGTH];
-        int[] h_arr = new int[ARR_LENGTH];
-        array = ArrFiller.fillArr(ARR_LENGTH);
-        long start = System.currentTimeMillis();
-        qsl_arr = QuickSort.quickSortByLastElement(array, 0, array.length-1);
-        long finish = System.currentTimeMillis();
-        long timeConsumedMillis = finish - start;
-        System.out.println("Alg with last element "+timeConsumedMillis+" ms");
-        long start1 = System.currentTimeMillis();
-//        qsr_arr = QuickSort.sortRand(array, 0, array.length-1);
-        long finish1 = System.currentTimeMillis();
-        long timeConsumedMillis1 = finish - start;
-        System.out.println("Alg with last element "+timeConsumedMillis1+" ms");
-System.out.println(array);
+        int[] arr = new int[ARR_LENGTH];
+        int k = 50;
+        long time = 0;
+//        for(int i = 0; i<k;i++) {
+//            MergeSort ob = new MergeSort();
+//            int nums[];
+//            nums = ArrFiller.fillArr(ARR_LENGTH);
+//            long start = System.currentTimeMillis();
+//            ob.sort(nums, 0, nums.length-1);
+//            long finish = System.currentTimeMillis();
+//            long timeConsumedMillis = finish - start;
+//            time+=timeConsumedMillis;
+//            System.out.println(i+": " + timeConsumedMillis + " ms");
+//        }
+
+        //hybrid
+        int Cs = 0;
+        MergeSort ob = new MergeSort();
+        int nums[];
+        for(int i = 0; i<k;i++) {
+
+            long best = ARR_LENGTH;
+            int bestC = 0;
+
+            ArrConstants.C = 10;
+            for(;ArrConstants.C<100;ArrConstants.C+=5) {
+                nums = ArrFiller.fillArr(ARR_LENGTH);
+                long start = System.currentTimeMillis();
+                ob.sortHybrid(nums, 0, nums.length - 1);
+                long finish = System.currentTimeMillis();
+                long timeConsumedMillis = finish - start;
+                if(timeConsumedMillis<best) {
+                    best = timeConsumedMillis;
+                    bestC = ArrConstants.C;
+
+                }
+
+            }
+            Cs+=bestC;
+            time+=best;
+            System.out.println(i+": " + best + " ms with c = "+bestC);
+        }
+        System.out.println("average: " + time/k + " ms average C: "+Cs/k    );
+
     }
 }

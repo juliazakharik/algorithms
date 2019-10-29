@@ -1,0 +1,16 @@
+MergeSort range 10^6 els 10^6:
+50 attempts:
+average: 164 ms
+
+MergeSort range 10^5 els 10^5:
+100 attempts:
+average: 12 ms
+
+MergeSort range 10^6 els 10^6:
+50 attempts:
+average: 141 ms with average C: 52
+
+MergeSort hybrid range 10^5 els 10^5:
+100 attempts:
+average: 10 ms with average C: 45
+
