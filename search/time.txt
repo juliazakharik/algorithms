@@ -1,0 +1,7 @@
+Search with 10^8 elements range 10^8:
+lin: 22 bin: 1 int: 1
+lin: 43 bin: 0 int: 0
+lin: 8 bin: 0 int: 0
+lin: 48 bin: 0 int: 0
+lin: 54 bin: 0 int: 0
+lin: 48 bin: 0 int: 0

@@ -109,18 +109,6 @@
       <change beforePath="D:/python/labs/polygon/polygon.py" beforeDir="false" afterPath="D:/python/labs/polygon/polygon.py" afterDir="false" />
       <change beforePath="D:/python/labs/q.py" beforeDir="false" afterPath="D:/python/labs/q.py" afterDir="false" />
       <change beforePath="D:/python/labs/triang.py" beforeDir="false" afterPath="D:/python/labs/triang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/constants/ArrConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/ArrConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/constants/ArrConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/ArrConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fill/ArrFiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fill/ArrFiller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/math/MathHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/math/MathHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/HybridSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/HybridSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,7 +128,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/constants/ArrConstants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -161,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+            <state relative-caret-position="244">
+              <caret line="118" selection-start-line="118" selection-end-line="119" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sort/HybridSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="1128">
+              <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,7 +323,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572328881811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572423820811" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../практика/centr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -461,18 +449,18 @@
       <workItem from="1571812863512" duration="385000" />
       <workItem from="1571896783879" duration="2735000" />
       <workItem from="1572156533030" duration="4285000" />
-      <workItem from="1572327002280" duration="1907000" />
+      <workItem from="1572327002280" duration="4918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23790000" />
+    <option name="totallyTimeSpent" value="26801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40161943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40161943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,7 +469,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42095914" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42095914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -551,26 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/HybridSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -585,6 +553,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/HybridSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="118" selection-start-line="118" selection-end-line="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
