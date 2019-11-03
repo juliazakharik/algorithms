@@ -109,6 +109,8 @@
       <change beforePath="D:/python/labs/polygon/polygon.py" beforeDir="false" afterPath="D:/python/labs/polygon/polygon.py" afterDir="false" />
       <change beforePath="D:/python/labs/q.py" beforeDir="false" afterPath="D:/python/labs/q.py" afterDir="false" />
       <change beforePath="D:/python/labs/triang.py" beforeDir="false" afterPath="D:/python/labs/triang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../search/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -152,7 +154,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="396">
               <caret line="118" selection-start-line="118" selection-end-line="119" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -323,7 +325,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572423820811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572429308481" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../практика/centr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -458,7 +460,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40161943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,7 +470,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42095914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42095914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -568,7 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="396">
           <caret line="118" selection-start-line="118" selection-end-line="119" />
           <folding>
             <element signature="imports" expanded="true" />
