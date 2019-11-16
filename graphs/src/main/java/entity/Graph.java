@@ -1,6 +1,11 @@
 package entity;
 
+import constants.Constants;
+
 import java.util.*;
+
+import static constants.Constants.INF;
+import static help.Math.min;
 
 public class Graph {
     private boolean adjMatrix[][];
@@ -21,6 +26,21 @@ public class Graph {
 
     public boolean[][] getAdjMatrix() {
         return adjMatrix;
+    }
+
+    public int[][] getAdjMatrixModified(){
+        int[][] t = new int[getDimension()][getDimension()];
+        for(int i = 0;i<getAdjMatrix().length;i++){
+            for(int j = 0; j<getAdjMatrix().length;j++){
+                if(getAdjMatrix()[i][j]){
+                    t[i][j]=1;
+                }
+                else {
+                    t[i][j]=0;
+                }
+            }
+        }
+        return t;
     }
 
     public void setAdjMatrix(boolean[][] adjMatrix) {
@@ -64,22 +84,17 @@ public class Graph {
         return adjMatrix[i][j];
     }
 
-    void DFSUtil(int v,boolean visited[])
-    {
+    void DFSUtil(int v, boolean[] visited) {
         visited[v] = true;
         System.out.println(v);
-        Iterator<Integer> i = getAdjLists()[v].listIterator();
-        while (i.hasNext())
-        {
-            int n = i.next();
+        for (int n : getAdjLists()[v]) {
             if (!visited[n])
                 DFSUtil(n, visited);
         }
     }
 
-    boolean isConnected()
-    {
-        boolean visited[] = new boolean[getDimension()];
+    boolean isConnected() {
+        boolean[] visited = new boolean[getDimension()];
         int i;
         for (i = 0; i < getDimension(); i++)
             visited[i] = false;
@@ -114,8 +129,7 @@ public class Graph {
 
         return (odd==2)? 1 : 2;
     }
-    void test()
-    {
+    void euler() {
         int res = isEulerian();
         if (res == 0)
             System.out.println("graph is not Eulerian");
@@ -124,19 +138,57 @@ public class Graph {
         else
             System.out.println("graph has a Euler cycle");
     }
+    
 
 
 
-    public String toString() {
-        StringBuilder s = new StringBuilder();
-        for (int i = 0; i < dimension; i++) {
-            s.append(i + ": ");
-            for (boolean j : adjMatrix[i]) {
-                s.append((j?1:0) + " ");
+//Prim
+
+    int minKey(int key[], boolean mstSet[]) {
+        int min = Integer.MAX_VALUE, min_index = -1;
+
+        for (int v = 0; v < getDimension(); v++)
+            if (!mstSet[v] && key[v] < min) {
+                min = key[v];
+                min_index = v;
             }
-            s.append("\n");
+
+        return min_index;
+    }
+
+
+    void printPrim(int parent[], int graph[][]) {
+        System.out.println("Edge \tWeight");
+        for (int i = 1; i < getDimension(); i++)
+            System.out.println(parent[i] + " - " + i + "\t" + graph[i][parent[i]]);
+    }
+
+    void prim(int graph[][]) {
+        int[] parent = new int[getDimension()];
+        int[] key = new int[getDimension()];
+        boolean[] mstSet = new boolean[getDimension()];
+        for (int i = 0; i < getDimension(); i++) {
+            key[i] = Integer.MAX_VALUE;
+            mstSet[i] = false;
         }
-        return s.toString();
+
+        key[0] = 0;
+        parent[0] = -1;
+
+        for (int count = 0; count < getDimension() - 1; count++) {
+
+            int u = minKey(key, mstSet);
+            System.out.println("u "+u);
+            mstSet[u] = true;
+            for (int v = 0; v < getDimension(); v++)
+                if (graph[u][v] != 0 && !mstSet[v] && graph[u][v] < key[v]) {
+                    parent[v] = u;
+                    key[v] = graph[u][v];
+                }
+            System.out.println("par"+Arrays.toString(parent)+" mstSet "+Arrays.toString(mstSet)+" key "+Arrays.toString(key));
+        }
+
+        printPrim(parent, graph);
     }
     public static void main(String args[]) {
         // Let us create and test graphs shown in above figures
@@ -147,7 +199,14 @@ public class Graph {
         g1.addEdgeAdjLists(0, 3);
         g1.addEdgeAdjLists(2, 4);
         g1.addEdgeAdjLists(3, 4);
-        g1.test();
+        g1.euler();
+        int graph[][] = new int[][] { { 0, 2, 0, 6, 0 },
+                { 2, 0, 3, 8, 5 },
+                { 0, 3, 0, 0, 7 },
+                { 6, 8, 0, 0, 9 },
+                { 0, 5, 7, 9, 0 } };
+
+        g1.prim(graph);
     }
 
     }
