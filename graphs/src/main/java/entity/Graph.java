@@ -138,16 +138,16 @@ public class Graph {
         else
             System.out.println("graph has a Euler cycle");
     }
-    
+
 
 
 
 //Prim
 
-    int minKey(int key[], boolean mstSet[]) {
+    int minKey(int key[], boolean mstSet[], int len) {
         int min = Integer.MAX_VALUE, min_index = -1;
 
-        for (int v = 0; v < getDimension(); v++)
+        for (int v = 0; v < len; v++)
             if (!mstSet[v] && key[v] < min) {
                 min = key[v];
                 min_index = v;
@@ -163,11 +163,11 @@ public class Graph {
             System.out.println(parent[i] + " - " + i + "\t" + graph[i][parent[i]]);
     }
 
-    void prim(int graph[][]) {
-        int[] parent = new int[getDimension()];
-        int[] key = new int[getDimension()];
-        boolean[] mstSet = new boolean[getDimension()];
-        for (int i = 0; i < getDimension(); i++) {
+    void prim(int[][] graph) {
+        int[] parent = new int[graph.length];
+        int[] key = new int[graph.length];
+        boolean[] mstSet = new boolean[graph.length];
+        for (int i = 0; i < graph.length; i++) {
             key[i] = Integer.MAX_VALUE;
             mstSet[i] = false;
         }
@@ -175,20 +175,63 @@ public class Graph {
         key[0] = 0;
         parent[0] = -1;
 
-        for (int count = 0; count < getDimension() - 1; count++) {
+        for (int count = 0; count < graph.length - 1; count++) {
 
-            int u = minKey(key, mstSet);
+            int u = minKey(key, mstSet,graph.length);
             System.out.println("u "+u);
             mstSet[u] = true;
-            for (int v = 0; v < getDimension(); v++)
+            for (int v = 0; v < graph.length; v++)
                 if (graph[u][v] != 0 && !mstSet[v] && graph[u][v] < key[v]) {
                     parent[v] = u;
                     key[v] = graph[u][v];
                 }
-            System.out.println("par"+Arrays.toString(parent)+" mstSet "+Arrays.toString(mstSet)+" key "+Arrays.toString(key));
         }
 
         printPrim(parent, graph);
+    }
+
+    int minKeyK(int key[], boolean mstSet[], int[][] g, int u){
+        int min = Integer.MAX_VALUE, min_index = -1;
+        for(int i =0; i< g.length;i++){
+                if(g[u][i]!=0) {
+                    if (!mstSet[i] && key[i] < min) {
+                        min = key[i];
+                        min_index = i;
+                    }
+                }
+        }
+        return min_index;
+    }
+
+
+
+
+    void kruskal(int[][] graph){
+        int[] parent = new int[graph.length];
+        int[] key = new int[graph.length];
+        boolean[] mstSet = new boolean[graph.length];
+        for (int i = 0; i < graph.length; i++) {
+            key[i] = Integer.MAX_VALUE;
+            mstSet[i] = false;
+        }
+
+        key[0] = 0;
+        parent[0] = -1;
+        int u =0;
+        for (int count = 0; count < graph.length - 1; count++) {
+
+            u = minKeyK(key, mstSet, graph, u);
+            System.out.println("u "+u+" ");
+            mstSet[u] = true;
+            for (int v = 0; v < graph.length; v++)
+                if (graph[u][v] != 0 && !mstSet[v] && graph[u][v] < key[v]) {
+                    parent[v] = u;
+                    key[v] = graph[u][v];
+                }
+        }
+
+        printPrim(parent, graph);
+
     }
     public static void main(String args[]) {
         // Let us create and test graphs shown in above figures
@@ -207,6 +250,7 @@ public class Graph {
                 { 0, 5, 7, 9, 0 } };
 
         g1.prim(graph);
+        g1.kruskal(graph);
     }
 
     }

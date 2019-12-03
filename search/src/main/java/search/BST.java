@@ -15,22 +15,23 @@ public class BST {
         root = insertNode(root, key);
     }
 
+//    int couuntV(){
+//
+//    }
+
 
     Node insertNode(Node root, int key) {
 
-        /* If the tree is empty, return a new node */
         if (root == null) {
             root = new Node(key);
             return root;
         }
 
-        /* Otherwise, recur down the tree */
         if (key < root.getData())
             root.setLeft(insertNode(root.getLeft(), key));
         else if (key > root.getData())
             root.setRight(insertNode(root.getRight(), key));
 
-        /* return the (unchanged) node pointer */
         return root;
     }
 
@@ -53,7 +54,6 @@ public class BST {
         inorderRec(root);
     }
 
-    // A utility function to do inorder traversal of BST
     void inorderRec(Node root) {
         if (root != null) {
             inorderRec(root.getLeft());
@@ -62,7 +62,7 @@ public class BST {
         }
     }
 
-    public int d(int k){
+    public int smallestV(int k){
         return kthSmallest(root, k);
     }
 
@@ -79,6 +79,26 @@ public class BST {
     }
 
 
+//    обходы
+    void visit(boolean n){
+        if(!n)
+            n=true;
+    }
+//    public void dfs(int start) {
+//        boolean[] isVisited = new boolean[.size()];
+//        dfsRecursive(start, isVisited);
+//    }
+//
+//    private void dfsRecursive(int current, boolean[] isVisited) {
+//        isVisited[current] = true;
+//        visit(current);
+//        for (int dest : adjVertices.get(current)) {
+//            if (!isVisited[dest])
+//                dfsRecursive(dest, isVisited);
+//        }
+//    }
+
+
     public static void main(String [] args){
         Node root = null;
         BST tree= new BST(root);
@@ -90,7 +110,7 @@ public class BST {
         tree.insert(60);
         tree.insert(80);
 
-        int r = tree.d(3);
+        int r = tree.smallestV(1);
 
 
 //        if(tree.search(60)){

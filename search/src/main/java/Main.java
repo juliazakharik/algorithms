@@ -50,10 +50,6 @@ public class Main {
 //        }
 //
 //        System.out.println("lin: "+timeLin/k+" bin: "+timeBin/k+" int: "+timeInt/k);
-        Mech m = new Mech();
-        m.run(1,"w");
-        Bus b = new Bus();
-        b.run(1,"w");
 
 
     }

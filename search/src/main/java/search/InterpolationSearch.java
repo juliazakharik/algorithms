@@ -41,19 +41,20 @@ public class InterpolationSearch {
 //        nums = ArrFiller.fillArr(ArrConstants.ARR_LENGTH);
 //        nums = {0, 0, 1, 1, 3, 5, 5, 5, 5, 9, 9, 10, 14, 17, 18, 18, 19, 20, 22, 22, 23, 23, 24, 24, 25, 28, 30, 30, 31, 31, 32, 32, 32, 34, 34, 35, 35, 41, 41, 42, 43, 43, 44, 44, 48, 48, 49, 49, 49, 49};
 //        int el = (int)(Math.random()*ArrConstants.ARR_LENGTH);
-        int el = 24;
-        int interPos = 0;
-        long startLin = System.currentTimeMillis();
-        int linearPos = LinearSearch.linearSearch(nums, el);
-        long finishLin = System.currentTimeMillis();
-        long timeConsumedMillisLin = finishLin - startLin;
+//        nums = ArrFiller.fillArr(1000000);
+        int el = 1;
+//        int interPos = 0;
+//        long startLin = System.currentTimeMillis();
+//        int linearPos = LinearSearch.linearSearch(nums, el);
+//        long finishLin = System.currentTimeMillis();
+//        long timeConsumedMillisLin = finishLin - startLin;
 
         QuickSort.sortLast(nums);
         long startInt = System.currentTimeMillis();
-        interPos = InterpolationSearch.interpolationSearch(nums, el);
+        int interPos = InterpolationSearch.interpolationSearch(nums, el);
         long finishInt = System.currentTimeMillis();
         long timeConsumedMillisInt = finishInt - startInt;
-        System.out.println(interPos+ " "+timeConsumedMillisInt+" "+timeConsumedMillisLin+" "+el);
-        System.out.println(Arrays.toString(nums));
+        System.out.println(interPos+ " "+timeConsumedMillisInt+" ");
+
     }
 }

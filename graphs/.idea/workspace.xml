@@ -6,6 +6,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/entity/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../search/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../search/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/src/main/java/Bus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../search/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/src/main/java/Mech.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/src/main/java/search/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../search/src/main/java/search/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/src/main/java/search/InterpolationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../search/src/main/java/search/InterpolationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/target/classes/Bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../search/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/target/classes/Mech.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/target/classes/search/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../search/target/classes/search/BST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search/target/classes/search/InterpolationSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../search/target/classes/search/InterpolationSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/entity/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+            <state relative-caret-position="535">
+              <caret line="223" column="41" selection-start-line="223" selection-start-column="41" selection-end-line="223" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1126#1127#0" expanded="true" />
@@ -58,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/help/Math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="51">
               <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
                 <element signature="e#74#75#0" expanded="true" />
@@ -160,15 +171,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573887665322" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574091341042" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../search" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -218,18 +229,19 @@
       <updated>1572429500422</updated>
       <workItem from="1572429501856" duration="854000" />
       <workItem from="1572587873591" duration="7061000" />
-      <workItem from="1573884285294" duration="3377000" />
+      <workItem from="1573884285294" duration="6102000" />
+      <workItem from="1574791952937" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11292000" />
+    <option name="totallyTimeSpent" value="15277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12633263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12739871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,7 +250,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,16 +287,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/help/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="51">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
             <element signature="e#74#75#0" expanded="true" />
@@ -293,10 +298,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+        <state relative-caret-position="535">
+          <caret line="223" column="41" selection-start-line="223" selection-start-column="41" selection-end-line="223" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1126#1127#0" expanded="true" />
