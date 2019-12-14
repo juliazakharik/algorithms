@@ -1,16 +1,20 @@
 import constants.ArrConstants;
+import entity.Hash;
 import fill.ArrFiller;
+import help.OutPutHash;
 import search.BinarySearch;
 import search.InterpolationSearch;
 import search.LinearSearch;
 import sort.HybridQS;
 import sort.QuickSort;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 
 public class Main {
-    public static void main(String[]args){
+    public static void main(String[]args) throws Exception {
 //        int k = 10;
 //        int[]nums;
 //        int[]temp;
@@ -50,6 +54,26 @@ public class Main {
 //        }
 //
 //        System.out.println("lin: "+timeLin/k+" bin: "+timeBin/k+" int: "+timeInt/k);
+        int value = 10;
+        int size = 20013;
+        int range = 40000;
+        List<Integer[]> array = new ArrayList<>();
+        for (int i = 0; i < size; i++) {
+            int randomKey = (int) Math.ceil(Math.random()*range);
+            array.add(new Integer[]{randomKey, value});
+        }
+        
+        System.out.println("**Кнут**");
+        OutPutHash.outputInfo(size, array, Hash::hash3);
+        System.out.println("----------------------------------------");
+        System.out.println("**key % size**");
+        OutPutHash.outputInfoWithConstant(size, array, Hash::hash2, Math.sqrt(15));
+        System.out.println("----------------------------------------");
+        System.out.println("**Math.sqrt(7)**");
+        OutPutHash.outputInfoWithConstant(size, array, Hash::hash2, Math.sqrt(7));
+        System.out.println("----------------------------------------");
+        System.out.println("**Math.sqrt(2) % 5**");
+        OutPutHash.outputInfoWithConstant(size, array, Hash::hash2, Math.sqrt(2) % 5);
 
 
     }

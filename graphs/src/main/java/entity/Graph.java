@@ -9,10 +9,15 @@ import static help.Math.min;
 
 public class Graph {
     private boolean adjMatrix[][];
+    private int[][] adj;
     private LinkedList<Integer> adjLists[];
     private int dimension;
     private int[] a;
     private int i = 0;
+    private int vertices;
+    public int getVertices() {
+        return vertices;
+    }
 
     public Graph(int dimension) {
         this.dimension = dimension;
@@ -23,9 +28,18 @@ public class Graph {
             adjLists[i] = new LinkedList();
     }
 
+    public Graph(int vertices, int[][] adjacency) {
+        this.vertices = vertices;
+        this.adj =adjacency;
+    }
+
 
     public boolean[][] getAdjMatrix() {
         return adjMatrix;
+    }
+
+    public int[][] getAdj(){
+        return adj;
     }
 
     public int[][] getAdjMatrixModified(){

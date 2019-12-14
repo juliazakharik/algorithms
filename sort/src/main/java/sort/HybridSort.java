@@ -66,7 +66,7 @@ public class HybridSort {
             long finish = System.currentTimeMillis();
             long timeConsumedMillis = finish - start;
             time+=timeConsumedMillis;
-            System.out.println(i+": " + timeConsumedMillis + " ms");
+//            System.out.println(i+": " + timeConsumedMillis + " ms");
         }
         System.out.println("average: " + time/k + " ms");
     }

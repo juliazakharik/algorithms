@@ -66,9 +66,9 @@ public class QuickSort {
 
         int i = start;
         int j = end;
-        // calculate pivot number
+
         int pivot = arr[(int)Math.random()*end+start];
-        // Divide into two arrays
+
         while (i <= j) {
             while (arr[i] < pivot) {
                 i++;
@@ -80,12 +80,11 @@ public class QuickSort {
                 int temp= arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
-                //move index to next position on both sides
                 i++;
                 j--;
             }
         }
-        // call quickSort() method recursively
+
         if (start < j)
             quickSortByRandElement(arr, start, j);
         if (i < end)
@@ -108,11 +107,11 @@ public class QuickSort {
             int nums[];
             nums = ArrFiller.fillArr(ARR_LENGTH);
             long start = System.currentTimeMillis();
-            ob.sortRand(nums);
+            ob.sortLast(nums);
             long finish = System.currentTimeMillis();
             long timeConsumedMillis = finish - start;
             time+=timeConsumedMillis;
-            System.out.println(i+": " + timeConsumedMillis + " ms");
+//            System.out.println(i+": " + timeConsumedMillis + " ms");
         }
         System.out.println("average: " + time/k + " ms");
     }

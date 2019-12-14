@@ -6,9 +6,12 @@ import sort.HybridQS;
 
 import java.util.Arrays;
 
-public class BinarySearch {
-    public static int binarySearch(int arr[], int l, int r, int s) {
+import static constants.ArrConstants.ARR_LENGTH;
 
+public class BinarySearch {
+    private static int k = 0;
+    public static int binarySearch(int arr[], int l, int r, int s) {
+        k++;
         if (r >= l) {
             int m = l + (r - l) / 2;
             if (arr[m] == s)
@@ -26,12 +29,14 @@ public class BinarySearch {
 
     public static void main(String [] args){
         int[]nums = new int[]{5,4,2,6,1,7,12,43,12,1,6,3,2};
-        int search = 7;
+        nums = ArrFiller.fillArr(ARR_LENGTH);
+        int search = 4323;
         int pos = 0;
         HybridQS.sortLast(nums);
         long startBin = System.currentTimeMillis();
         pos = BinarySearch.binarySearch(nums, 0, nums.length-1, search);
         long finishBin = System.currentTimeMillis();
-        System.out.println((finishBin-startBin)+" el: "+pos+" arr: "+ Arrays.toString(nums));
+        System.out.println((finishBin-startBin)+" el: "+pos);
+        System.out.println(k);
     }
 }
