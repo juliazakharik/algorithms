@@ -1,0 +1,4 @@
+SCREEN = 500
+MIN_SPEED = -3
+MAX_SPEED = 3
+

@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/main.py" description="    # p = [[100, 200], [200, 200], [400, 100], [30..." line="33" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5dd6bc41-3bae-4d70-9c48-4fec022d13a8" name="Default Changelist" comment="">
+      <change afterPath="D:/New Folder/OSPanel/img/.gitignore" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/.idea/modules.xml" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/README.md" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/ahash.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/bcmp.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/bdm.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/bhashes.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/cmp.php" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/compare.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/dhash.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/example.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/example_rng.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/hashes.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/knn-match.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/phash.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/bin/runtests.sh" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/core/__init__.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/core/image.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/img.iml" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/__init__.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/hash/__init__.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/hash/ahash.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/hash/dhash.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/hash/extractor.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/hash/phash.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/image.py" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1037.jpeg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/159.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/160.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_150.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_150_2.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_bl.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_bl2.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_brb.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_brightness-100.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_brightness.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_c1.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_contrast.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_cr.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_f.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_inv.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_l+100.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_left.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_sh-100.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_wb.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/1_500_wl.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/2.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/2_150.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/2_500.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/3.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/3569dbcf509226b51a03fb193f2cda7a.jpeg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/3_150.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/3_500.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/4.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/479.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/4_500.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/5.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/5_500.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/6.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/6_500.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/7.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/7_500.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/green-single-right-arrow-set-clip-art_415974.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/j.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/lenna.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/lenna_ass.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/lenna_cropped.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/lenna_face.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/lenna_full.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/lenna_top.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/m-1190.jpeg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/m-250.jpeg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/m-336.jpeg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-a.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-a1.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-a2-line.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-bad-girl.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-ciga-text.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-ciga.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-cropped-face.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-cropped-face2.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-cropped-vertical.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-pop-art.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna-sq.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/img/tests/images/madonna.jpg" afterDir="false" />
+      <change afterPath="D:/New Folder/OSPanel/untitled/cou1.py" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/Computer.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/Drive.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/ModelProcessor.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/Processor.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/RAM.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/TypeDrive.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/TypeRam.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/TypeWinchester.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/entity/Winchester.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/exception/ComputerException.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/main/java/factory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part1Var7/src/test/java/entity/ComputerTest.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/data/ammunition.txt" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/action/AmminitionFinder.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/action/AmmunitionSorter.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/action/MotorcyclistMaker.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/compare/AmmunitionWeightComparator.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/create/AmmunitionCreator.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Ammunition.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Boots.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Color.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Composite.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/FootWear.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Gender.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Helmet.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Jacket.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Length.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/MotorBoots.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/entity/Motorcyclist.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/exception/IncorrectValueException.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/exception/InvalidDataException.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/exception/StorageException.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/log4j2.xml" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/parse/AmmunitionParser.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/read/AmmunitionReader.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/store/AmmunitionStorage.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/util/AmmunitionTags.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/util/TypeAmmunition.java" afterDir="false" />
+      <change afterPath="D:/java/lab6Part2Var7/src/valid/AmmunitionValidator.java" afterDir="false" />
+      <change afterPath="D:/java/vBz2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/java/vBz2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part1Var7/src/main/java/check/SmallestArea.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part1Var7/src/main/java/check/SmallestPerimeter.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part1Var7/src/test/java/check/SmallestAreaTest.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part1Var7/src/test/java/check/SmallestPerimeterTest.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/d/proga/lab5Part2Var7/src/main/resources/log4j.log" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/java/constants/Constants.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/java/entity/Fraction.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/java/entity/Point.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/java/entityOperations/FractionalOperations.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/java/entityOperations/PointsDistance.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/java/exception/NullDenominatorException.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/java/exception/PointDimentionException.java" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/resources/log4j.log" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="D:/proga/lab5Part2Var7/src/test/java/entityOperations/PointsDistanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clipping/cirus-beck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hull/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hull/dinamic_hull.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hull/quick_hull.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/line/line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point/PointClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point/point_location_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polygon/gabarite_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polygon/point_in_pol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polygon/polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triang.py" afterDir="false" />
+      <change beforePath="D:/Happyis/package-lock.json" beforeDir="false" afterPath="D:/Happyis/package-lock.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/labs$point_in_pol.coverage" NAME="point_in_pol Coverage Results" MODIFIED="1554105665742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polygon" />
+    <SUITE FILE_PATH="coverage/labs$dinamic_hull.coverage" NAME="dinamic_hull Coverage Results" MODIFIED="1559108776397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hull" />
+    <SUITE FILE_PATH="coverage/labs$cirus_beck.coverage" NAME="cirus-beck Coverage Results" MODIFIED="1559539461433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/labs$hull.coverage" NAME="hull Coverage Results" MODIFIED="1559108973030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/labs$ex.coverage" NAME="ex Coverage Results" MODIFIED="1553416065678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/labs$triang.coverage" NAME="triang Coverage Results" MODIFIED="1559109034757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clipping" />
+    <SUITE FILE_PATH="coverage/labs$pair.coverage" NAME="pair Coverage Results" MODIFIED="1559537971211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/labs$draw.coverage" NAME="draw Coverage Results" MODIFIED="1553496662136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/labs$main.coverage" NAME="main Coverage Results" MODIFIED="1559547015249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/labs$lab1.coverage" NAME="lab1 Coverage Results" MODIFIED="1553414486997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polygon/polygon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="224" selection-start-line="224" selection-end-line="224" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/point/PointClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1559544451896" expanded="true" signature="1171:1474" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polygon/point_in_pol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="107" selection-start-line="106" selection-start-column="22" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pair.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/draw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-907">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clipping/cirus-beck.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1559546931303" expanded="true" signature="722:788" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diameter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polygon/gabarite_polygon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ci</find>
+      <find>ciru</find>
+      <find>cyr</find>
+      <find>cy</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/line.py" />
+        <option value="$PROJECT_DIR$/point.py" />
+        <option value="$PROJECT_DIR$/ex.py" />
+        <option value="$PROJECT_DIR$/point/point_location_line.py" />
+        <option value="$PROJECT_DIR$/polygon/pointInPol.py" />
+        <option value="$PROJECT_DIR$/polygon/simple_pol.py" />
+        <option value="$PROJECT_DIR$/lab3.py" />
+        <option value="$PROJECT_DIR$/point/point.py" />
+        <option value="$PROJECT_DIR$/q.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/polygon/gabarite_polygon.py" />
+        <option value="$PROJECT_DIR$/colors.py" />
+        <option value="$PROJECT_DIR$/hull/dinamic_hull.py" />
+        <option value="$PROJECT_DIR$/triang.py" />
+        <option value="$PROJECT_DIR$/Triangle.py" />
+        <option value="$PROJECT_DIR$/polygon/polygon.py" />
+        <option value="$PROJECT_DIR$/diameter.py" />
+        <option value="$PROJECT_DIR$/hull/quick_hull.py" />
+        <option value="$PROJECT_DIR$/draw.py" />
+        <option value="$PROJECT_DIR$/lab1.py" />
+        <option value="$PROJECT_DIR$/pair.py" />
+        <option value="$PROJECT_DIR$/clipping/cirus-beck.py" />
+        <option value="$PROJECT_DIR$/point/PointClass.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/polygon/point_in_pol.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+              <item name="clipping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+              <item name="hull" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+              <item name="line" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+              <item name="point" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+              <item name="polygon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559572786592" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\labs\line" />
+      <recent name="D:\python\labs\point" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="cirus-beck" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\New Folder\Miniconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clipping/cirus-beck.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dinamic_hull" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hull" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hull/dinamic_hull.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hull" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\New Folder\Miniconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hull/quick_hull.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pair" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\New Folder\Miniconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pair.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="point_in_pol" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polygon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polygon/point_in_pol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="triang" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\New Folder\Miniconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clipping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/triang.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pair" />
+      <item itemvalue="Python.cirus-beck" />
+      <item itemvalue="Python.hull" />
+      <item itemvalue="Python.point_in_pol" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.dinamic_hull" />
+      <item itemvalue="Python.triang" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.triang" />
+        <item itemvalue="Python.hull" />
+        <item itemvalue="Python.dinamic_hull" />
+        <item itemvalue="Python.point_in_pol" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dd6bc41-3bae-4d70-9c48-4fec022d13a8" name="Default Changelist" comment="" />
+      <created>1553413256662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553413256662</updated>
+      <workItem from="1553413269317" duration="20218000" />
+      <workItem from="1553496409224" duration="1654000" />
+      <workItem from="1553498126264" duration="37000" />
+      <workItem from="1553498892345" duration="602000" />
+      <workItem from="1553670792006" duration="17041000" />
+      <workItem from="1553694163418" duration="8211000" />
+      <workItem from="1553773469116" duration="6530000" />
+      <workItem from="1554101328837" duration="1498000" />
+      <workItem from="1554104263157" duration="1990000" />
+      <workItem from="1554113227329" duration="2479000" />
+      <workItem from="1554221819085" duration="1050000" />
+      <workItem from="1554281244555" duration="4491000" />
+      <workItem from="1554446966707" duration="1041000" />
+      <workItem from="1554536764116" duration="84000" />
+      <workItem from="1554612625259" duration="1548000" />
+      <workItem from="1554732371728" duration="10905000" />
+      <workItem from="1554809187503" duration="2034000" />
+      <workItem from="1554871059107" duration="1825000" />
+      <workItem from="1554906100134" duration="46000" />
+      <workItem from="1554907440565" duration="5039000" />
+      <workItem from="1554982290149" duration="6339000" />
+      <workItem from="1555011076587" duration="45000" />
+      <workItem from="1555045755995" duration="1564000" />
+      <workItem from="1555058745626" duration="868000" />
+      <workItem from="1555065103360" duration="3976000" />
+      <workItem from="1555074016995" duration="4753000" />
+      <workItem from="1555138806953" duration="205000" />
+      <workItem from="1555225268054" duration="1408000" />
+      <workItem from="1555477350703" duration="8548000" />
+      <workItem from="1555746895365" duration="2980000" />
+      <workItem from="1555754998650" duration="57000" />
+      <workItem from="1555824776331" duration="5003000" />
+      <workItem from="1555915896433" duration="3654000" />
+      <workItem from="1555937396703" duration="1321000" />
+      <workItem from="1556379631525" duration="111000" />
+      <workItem from="1557982718927" duration="1452000" />
+      <workItem from="1558189757639" duration="3836000" />
+      <workItem from="1558851569092" duration="20322000" />
+      <workItem from="1559201954099" duration="1453000" />
+      <workItem from="1559537770333" duration="6347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="162565000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.39676112" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3516874" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39966834" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.08582996" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ex.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/polygon/simple_pol.py" />
+    <entry file="file://$PROJECT_DIR$/triang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="135" column="45" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hull/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hull/quick_hull.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line/line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point/point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point/point_location_line.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hull/dinamic_hull.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polygon/gabarite_polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clipping/cirus-beck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point/PointClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1559544451896" expanded="true" signature="1171:1474" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1559546931303" expanded="true" signature="722:788" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polygon/point_in_pol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="107" selection-start-line="106" selection-start-column="22" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polygon/polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pair.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

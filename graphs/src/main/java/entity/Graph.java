@@ -2,18 +2,18 @@ package entity;
 
 import constants.Constants;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 import static constants.Constants.INF;
 import static help.Math.min;
+import static java.util.Arrays.fill;
 
 public class Graph {
     private boolean adjMatrix[][];
-    private int[][] adj;
+    private double[][] adj;
     private LinkedList<Integer> adjLists[];
     private int dimension;
-    private int[] a;
-    private int i = 0;
     private int vertices;
     public int getVertices() {
         return vertices;
@@ -28,9 +28,10 @@ public class Graph {
             adjLists[i] = new LinkedList();
     }
 
-    public Graph(int vertices, int[][] adjacency) {
+    public Graph(int vertices, double[][] adjacency) {
         this.vertices = vertices;
         this.adj =adjacency;
+        this.dimension = adjacency.length;
     }
 
 
@@ -38,9 +39,18 @@ public class Graph {
         return adjMatrix;
     }
 
-    public int[][] getAdj(){
+    public double[][] getAdj(){
         return adj;
     }
+    public double getCycleWeight(int[]sol){
+        double k = 0;
+        for(int i = 0;i<getAdj().length-1;i++){
+            k+=getAdj()[sol[i]][sol[i+1]];
+        }
+        k+=getAdj()[sol[0]][sol[sol.length-1]];
+        return k;
+    }
+    public void setAdj(double[][] adj){this.adj = adj;}
 
     public int[][] getAdjMatrixModified(){
         int[][] t = new int[getDimension()][getDimension()];
@@ -83,15 +93,83 @@ public class Graph {
         adjLists[dest].add(src);
     }
 
+    public void removeEgdeLists(int src, int dest){
+        adjLists[src].remove(dest);
+        adjLists[dest].remove(src);
+    }
+
+    public void addVertexLists(int vertex) throws RuntimeException {
+        if (!this.adjLists[vertex].isEmpty()) {
+            throw new RuntimeException("Such vertex has already exist");
+        }
+        this.adjLists[vertex].add(null);
+    }
+
+    public void removeVertexLists(int vertex){
+        if (!this.adjLists[vertex].isEmpty()) {
+            throw new RuntimeException("Such vertex has already exist");
+        }
+        this.adjLists[vertex].remove();
+    }
+
 
     public void addEdgeAdjMatrix(int i, int j) {
         adjMatrix[i][j] = true;
         adjMatrix[j][i] = true;
     }
 
-    public void removeEdge(int i, int j) {
+    public void removeEdgeMatrix(int i, int j) {
         adjMatrix[i][j] = false;
         adjMatrix[j][i] = false;
+    }
+    public void addEdgeAdj(int i, int j, double k) {
+        adj[i][j] = k;
+        adj[j][i] = k;
+    }
+
+
+
+    public void addEdgeList(int vertex1, int vertex2) {
+        if (!this.adjLists[vertex1].isEmpty()) {
+            this.adjLists[vertex1].add(vertex2);
+        } else {
+            addVertexLists(vertex1);
+            this.adjLists[vertex1].add(vertex2);
+        }
+        if (!this.adjLists[vertex2].isEmpty()) {
+            this.adjLists[vertex2].add(vertex1);
+        } else {
+            addVertexLists(vertex2);
+            this.adjLists[vertex2].add(vertex1);
+        }
+    }
+
+    public List<Integer> getVertexEnvironmentLists(int vertex) {
+        if (!adjLists[vertex].isEmpty()) {
+            return null;
+        }
+        return this.adjLists[vertex];
+    }
+
+    public List<Integer> getVertexEnvironmentMatrix(int vertex) {
+        List<Integer> res = new ArrayList<>();
+        for(int i = 0;i<getDimension();i++){
+            if(adjMatrix[vertex][i]){
+                res.add(i);
+            }
+        }
+        return res;
+    }
+    public boolean isAdjacentVerticesLists(int vertex1, int vertex2) {
+        List<Integer> environmentOfVertex1 = this.getVertexEnvironmentLists(vertex1);
+        if (environmentOfVertex1.isEmpty()) {
+            return false;
+        }
+        return environmentOfVertex1.contains(vertex2);
+    }
+
+    public boolean isAdjacentVerticesMatrix(int vertex1, int vertex2) {
+        return adjMatrix[vertex1][vertex2];
     }
 
     public boolean isEdge(int i, int j) {
@@ -113,7 +191,7 @@ public class Graph {
         for (i = 0; i < getDimension(); i++)
             visited[i] = false;
 
-        for (i = 0; i < getDimension(); i++)
+        for (i = 0; i < getDimension(); i++)//ищем ненулевую вершину
             if (getAdjLists()[i].size() != 0)
                 break;
 
@@ -123,7 +201,7 @@ public class Graph {
         DFSUtil(i, visited);
 
         for (i = 0; i < getDimension(); i++)
-            if (!visited[i] && getAdjLists()[i].size() > 0)
+            if (!visited[i] && getAdjLists()[i].size() > 0)//все ли вершины просмотрены
                 return false;
 
         return true;
@@ -138,7 +216,7 @@ public class Graph {
             if (getAdjLists()[i].size()%2!=0)
                 odd++;
 
-        if (odd > 2)
+        if (odd > 1)//если кол-во вершин с неч степенями > 2, то граф не эйлеров
             return 0;
 
         return (odd==2)? 1 : 2;
@@ -147,8 +225,6 @@ public class Graph {
         int res = isEulerian();
         if (res == 0)
             System.out.println("graph is not Eulerian");
-        else if (res == 1)
-            System.out.println("graph has a Euler path");
         else
             System.out.println("graph has a Euler cycle");
     }
@@ -172,7 +248,7 @@ public class Graph {
 
 
     void printPrim(int parent[], int graph[][]) {
-        System.out.println("Edge \tWeight");
+        System.out.println("Edge \tCost");
         for (int i = 1; i < getDimension(); i++)
             System.out.println(parent[i] + " - " + i + "\t" + graph[i][parent[i]]);
     }
@@ -186,21 +262,22 @@ public class Graph {
             mstSet[i] = false;
         }
 
+
         key[0] = 0;
         parent[0] = -1;
 
         for (int count = 0; count < graph.length - 1; count++) {
 
             int u = minKey(key, mstSet,graph.length);
-            System.out.println("u "+u);
+
             mstSet[u] = true;
             for (int v = 0; v < graph.length; v++)
-                if (graph[u][v] != 0 && !mstSet[v] && graph[u][v] < key[v]) {
+                if (graph[v][u]!=0 && !mstSet[v] && graph[u][v] < key[v]) {
                     parent[v] = u;
                     key[v] = graph[u][v];
                 }
-        }
 
+        }
         printPrim(parent, graph);
     }
 
@@ -217,54 +294,148 @@ public class Graph {
         return min_index;
     }
 
+    static int find (int i, int[]parent) {
+        while(parent[i] != i)
+            i = parent[i];
+        return i;
+    }
 
 
+    static void union(int i, int j, int[]parent) {
 
-    void kruskal(int[][] graph){
-        int[] parent = new int[graph.length];
-        int[] key = new int[graph.length];
-        boolean[] mstSet = new boolean[graph.length];
-        for (int i = 0; i < graph.length; i++) {
-            key[i] = Integer.MAX_VALUE;
-            mstSet[i] = false;
-        }
-
-        key[0] = 0;
-        parent[0] = -1;
-        int u =0;
-        for (int count = 0; count < graph.length - 1; count++) {
-
-            u = minKeyK(key, mstSet, graph, u);
-            System.out.println("u "+u+" ");
-            mstSet[u] = true;
-            for (int v = 0; v < graph.length; v++)
-                if (graph[u][v] != 0 && !mstSet[v] && graph[u][v] < key[v]) {
-                    parent[v] = u;
-                    key[v] = graph[u][v];
-                }
-        }
-
-        printPrim(parent, graph);
+        int a = find(i, parent);
+        int b = find(j, parent);
+        parent[a] = b;
 
     }
-    public static void main(String args[]) {
-        // Let us create and test graphs shown in above figures
-        Graph g1 = new Graph(5);
-        g1.addEdgeAdjLists(1, 0);
-        g1.addEdgeAdjLists(0, 2);
-        g1.addEdgeAdjLists(2, 1);
-        g1.addEdgeAdjLists(0, 3);
-        g1.addEdgeAdjLists(2, 4);
-        g1.addEdgeAdjLists(3, 4);
-        g1.euler();
-        int graph[][] = new int[][] { { 0, 2, 0, 6, 0 },
-                { 2, 0, 3, 8, 5 },
-                { 0, 3, 0, 0, 7 },
-                { 6, 8, 0, 0, 9 },
-                { 0, 5, 7, 9, 0 } };
 
-        g1.prim(graph);
-        g1.kruskal(graph);
+     void kruskal(int graph[][]) {
+        System.out.println("kruskal");
+        int mincost = 0; // Cost of min MST.
+        int[]parent = new int[graph.length];
+        int[] init = new int[graph.length];
+        for(int i = 0; i < graph.length; i++)
+            parent[i] = i;
+        int edge_count = 0;
+        while(edge_count < graph.length - 1) {
+            int min = INF, a = -1, b = -1;
+            for(int i = 0; i < graph.length; i++) {
+                for(int j = 0; j < graph.length; j++) {
+                    if(graph[i][j]!=0) {
+//                    System.out.println(Arrays.toString(parent));
+                        if (find(i, parent) != find(j, parent) && graph[i][j] < min) {
+                            min = graph[i][j];
+                            a = i;
+                            b = j;
+                        }
+                    }
+                }
+            }
+
+            union(a, b, parent);
+            System.out.print(a+ " - "+ b+"\t"+ min+"\n");
+            edge_count++;
+            mincost += min;
+        }
+        System.out.println(Arrays.toString(parent));
+//        System.out.printf("\n Minimum cost= %d \n", mincost);
+    }
+
+    boolean BFS(int s) {
+        LinkedList<Integer> queue = new LinkedList<>();
+        int[] arr = new int[adjLists.length];
+        queue.add(s);
+        arr[s] = 2;
+        int k = 0;
+        while (queue.size() != 0) {
+            s = queue.poll();
+            Iterator<Integer> i = adjLists[s].iterator();
+            int c = arr[s];
+            while (i.hasNext()) {
+                int n = i.next();
+                queue.add(n);
+                if(arr[n]==c)
+                    return false;
+                else
+                    arr[n] = invert(c);
+            }
+            k++;
+            if(k>getDimension())
+                break;
+        }
+        return true;
+    }
+
+
+
+    int invert(int c) {
+        return c == 1 ? 2 : 1;
+    }
+
+
+    boolean dfsUtil(int v, int c, int[]arr){
+        arr[v] = c;
+        for(Integer u: adjLists[v]){
+            if(arr[u]==0){
+                dfsUtil(u, invert(c), arr);
+            }else if(arr[u]==c){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    boolean bipartite(){
+        int[]arr = new int[dimension];
+        for (int i = 0; i < dimension; i++) {
+            if (arr[i] == 0) {
+                if(!dfsUtil(i, 1,arr))
+                    return false;
+            }
+        }
+        return true;
+    }
+
+    void printBipartite(){
+        if(BFS(0))
+            System.out.println("Graph is bipartite");
+        else
+            System.out.println("Graph isnt bipartite");
+    }
+
+
+
+
+    public static void main(String args[]) {
+//        Graph g1 = new Graph(8);
+//        g1.addEdgeAdjLists(1, 0);
+//        g1.addEdgeAdjLists(0, 2);
+//        g1.addEdgeAdjLists(2, 1);
+//        g1.addEdgeAdjLists(0, 3);
+//        g1.addEdgeAdjLists(2, 4);
+//        g1.addEdgeAdjLists(0,5);
+//        g1.addEdgeAdjLists(3, 4);
+//        g1.addEdgeAdjLists(1,6);
+//        g1.addEdgeAdjLists(1,7);
+//        g1.addEdgeAdjLists(2,6);
+//        g1.addEdgeAdjLists(2,7);
+//
+        Graph g2 = new Graph(4);
+        g2.addEdgeAdjLists(0,1);
+        g2.addEdgeAdjLists(2,3);
+        g2.addEdgeAdjLists(0,2);
+        g2.addEdgeAdjLists(1,2);
+
+
+        g2.printBipartite();
+//        System.out.println(g1.isConnectedGraph());
+//        System.out.println(g2.isConnectedGraph());
+
+//        Graph g1 = new Graph(3);
+//        g1.addEdgeAdjLists(0,1);
+//        g1.addEdgeAdjLists(1,2);
+////        g1.addEdgeAdjLists(0,2);
+//        g1.printBipartite();
     }
 
     }

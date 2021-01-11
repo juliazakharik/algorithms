@@ -7,38 +7,22 @@
       <change beforePath="$PROJECT_DIR$/../graphs/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graphs/src/main/java/entity/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/src/main/java/entity/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graphs/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs/target/classes/action/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/target/classes/action/DFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs/target/classes/action/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/target/classes/action/Search.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graphs/target/classes/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/target/classes/constants/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graphs/target/classes/entity/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/target/classes/entity/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../graphs/target/classes/help/Math.class" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs/target/classes/help/Math.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/constants/ArrConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/ArrConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/InterpolationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/InterpolationSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/constants/ArrConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/ArrConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fill/ArrFiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fill/ArrFiller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/search/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/search/InterpolationSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search/InterpolationSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/search/LinearSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search/LinearSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/search/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/HybridQS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/HybridQS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/src/main/java/constants/ArrConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/src/main/java/constants/ArrConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/src/main/java/sort/HybridSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/src/main/java/sort/HybridSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/target/classes/META-INF/sort.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/target/classes/constants/ArrConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/target/classes/constants/ArrConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/target/classes/fill/ArrFiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/target/classes/fill/ArrFiller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/target/classes/sort/HybridSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/target/classes/sort/HybridSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sort/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/target/classes/sort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes3" beforeDir="false" afterPath="$PROJECT_DIR$/notes3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/huffman/Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/huffman/Huffman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/SMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/SMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/huffman/Huffman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/huffman/Huffman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/search/SMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search/SMP.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,24 +33,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search/SMP.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/huffman/Huffman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="637">
+              <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/huffman/Huffman.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/robot/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,37 +69,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/HashChains.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/constants/ArrConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/entity/HashChainsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fill/ArrFiller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/help/OutPutHash.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -123,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search/InterpolationSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="323">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,20 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="867">
               <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +113,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/help/MathHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="442">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/help/OutPutHash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/help/SortHash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +151,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -209,8 +187,17 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/help/MathHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/entity/HashChainsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/constants/Date.java" />
+        <option value="$PROJECT_DIR$/src/main/java/constants/Language.java" />
+        <option value="$PROJECT_DIR$/src/main/java/constants/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/huffman/BitOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/huffman/BitInputStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/SMP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/huffman/Bit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/smp/Marrige.java" />
         <option value="$PROJECT_DIR$/src/main/java/huffman/Huffman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/robot/R.java" />
+        <option value="$PROJECT_DIR$/src/main/java/robot/Robot.java" />
       </list>
     </option>
   </component>
@@ -229,6 +216,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,23 +256,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="help" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="search" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +272,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="search" type="b2602c69:ProjectViewProjectNode" />
@@ -314,17 +286,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576333423806" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577179049288" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../graphs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../automation_testing/webdriver" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -356,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Huffman">
+  <component name="RunManager" selected="Application.Robot">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="search" />
@@ -383,12 +354,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterpolationSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.InterpolationSearch" />
+    <configuration name="Marrige" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="smp.Marrige" />
       <module name="search" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="smp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="robot.Robot" />
+      <module name="search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="robot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,22 +389,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashChainsTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="entity" />
-      <option name="MAIN_CLASS_NAME" value="entity.HashChainsTest" />
-      <option name="METHOD_NAME" value="testGet" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -449,11 +417,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Robot" />
         <item itemvalue="Application.Huffman" />
+        <item itemvalue="Application.Marrige" />
         <item itemvalue="Application.SMP" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.InterpolationSearch" />
-        <item itemvalue="JUnit.HashChainsTest.testGet" />
       </list>
     </recent_temporary>
   </component>
@@ -473,6 +441,10 @@
       <workItem from="1574854691295" duration="2732000" />
       <workItem from="1575646738147" duration="8895000" />
       <workItem from="1575812578878" duration="21204000" />
+      <workItem from="1576488330178" duration="1848000" />
+      <workItem from="1576904322187" duration="9480000" />
+      <workItem from="1577087786444" duration="5952000" />
+      <workItem from="1589615939997" duration="870000" />
     </task>
     <servers />
   </component>
@@ -485,13 +457,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48360000" />
+    <option name="totallyTimeSpent" value="66510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12613575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -511,7 +483,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="0" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="0" side_tool="true" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -564,10 +536,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/huffman/Huffman.java</url>
-          <line>142</line>
+          <url>file://$PROJECT_DIR$/src/main/java/search/SMP.java</url>
+          <line>20</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -582,13 +554,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bus.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Mech.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/sort/HybridQS.java">
@@ -618,20 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fill/ArrFiller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -646,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/ArrConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/LinearSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -660,9 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/hashFunk.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/hashFunk.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -711,49 +653,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/help/SortHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/help/OutPutHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/help/MathHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/entity/HashChainsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/HashChains.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
+        <state relative-caret-position="102">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -761,20 +663,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Date.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Language.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/HashChainsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="544">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search/InterpolationSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/LoginPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/huffman/Bit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search/SMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huffman/BitInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/huffman/BitOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -783,11 +732,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="272">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/smp/Marrige.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="e#534#543#0" expanded="true" />
+            <element signature="e#701#719#0" expanded="true" />
+            <element signature="e#3009#3018#0" expanded="true" />
+            <element signature="e#3180#3198#0" expanded="true" />
+            <element signature="e#3499#3517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/robot/R.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/ArrConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fill/ArrFiller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search/InterpolationSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/help/MathHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/help/OutPutHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/help/SortHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/robot/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -802,17 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search/SMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/huffman/Huffman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        <state relative-caret-position="637">
+          <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
